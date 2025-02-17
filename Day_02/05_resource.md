@@ -14,11 +14,16 @@ resource "<provider>_<type>" "<name>" {
 
 Here is an example resource: Creating an AWS EC2 Instance
 ```cmd
-resource "aws_instance" "example" {
+resource "aws_instance" "my_vm" {
   ami           = "ami-123456"
   instance_type = "t2.micro"
 }
 ```
+
+- ✔ Resource block defines what Terraform creates, updates, or deletes.
+- ✔ Uses resource types (e.g., aws_instance, azurerm_virtual_machine).
+- ✔ Each resource has arguments (e.g., ami, instance_type).
+- ✔ Uses a unique resource name (my_vm) to track state.
 
 ---
 
