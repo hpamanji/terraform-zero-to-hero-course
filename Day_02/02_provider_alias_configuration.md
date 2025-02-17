@@ -1,6 +1,6 @@
 # Using Multiple AWS Provider Configurations with Aliases
 
-Let's say, we want to create multiple EC2 instances in different AWS regions. 
+Let's say, we have a requirement to create multiple EC2 instances in different AWS regions. 
 
 Terraform lets us manage multiple AWS regions within a single configuration file instead of creating separate configurations for each region. We can achieve this by defining multiple provider blocks, each specifying a different AWS region. 
 
