@@ -42,9 +42,11 @@ aws configure
 
 ## Multiple Provider Configurations using `alias`
 
-Let's say, we want to create multiple EC2 instances in different AWS regions. We can achieve this with one configuration file. Terraform allows us to do this using the `alias` argument, which helps differentiate between provider instances.
+Let's say, we want to create multiple EC2 instances in different AWS regions. 
 
-Instead of writing separate Terraform configurations for each region, we can define multiple provider blocks within a single configuration file, each referring to a different AWS region.
+We can achieve this with one configuration file instead of multiple configurations for each region. 
+
+We can define multiple provider blocks within a single configuration file, each referring to a different AWS region. Terraform allows us to do this using the `alias` argument, which helps differentiate between provider instances.
 
 The default provider is used for all resources unless explicitly specified.
 
