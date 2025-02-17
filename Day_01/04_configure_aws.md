@@ -33,7 +33,13 @@ Instead of using your root account, we’ll create an IAM (Identity and Access M
 
 ### Configure AWS CLI Credentials
 
-To set up credentials, use the AWS CLI command 'aws configure'. You’ll be prompted to enter:
+To set up credentials, use the AWS CLI command 'aws configure'.
+
+```cmd
+aws configure
+```
+
+You’ll be prompted to enter:
 
 AWS Access Key ID
 AWS Secret Access Key
@@ -41,7 +47,6 @@ Default region name (e.g., us-east-1)
 Default output format (leave as None)
 
 ```cmd
-C:\>aws configure
 AWS Access Key ID [****************7WPF]:
 AWS Secret Access Key [****************giL/]:
 Default region name [us-west-2]:
