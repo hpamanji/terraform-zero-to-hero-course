@@ -1,6 +1,6 @@
 ## Set Up Cloud Account Authentication
 
-*Before Terraform can start spinning up resources in AWS, it needs access to your AWS account. That means setting up AWS credentials and making sure everything is properly configured. Don’t worry—it’s easier than you think! Let’s break it down step by step.*
+*Before Terraform can start spinning up resources in AWS, it needs access to your AWS account. That means setting up AWS credentials and making sure everything is properly configured. Let’s break it down step by step.*
 
 ---
 ### Install AWS CLI
