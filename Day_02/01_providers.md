@@ -48,8 +48,6 @@ We can achieve this with one configuration file instead of multiple configuratio
 
 We can define multiple provider blocks within a single configuration file, each referring to a different AWS region. Terraform allows us to do this using the `alias` argument, which helps differentiate between provider instances.
 
-The default provider is used for all resources unless explicitly specified.
-
 In the example below, we are Creating EC2 Instances in Two Regions. We have to explicitly specify the additional provider name(aws.west) otherwise the default provider will be refered.
 
 ```cmd
@@ -78,3 +76,4 @@ resource "aws_instance" "west_instance" {
 }
 ```
 
+`Note: The default provider is used for all resources unless explicitly specified.`
