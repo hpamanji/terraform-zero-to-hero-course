@@ -6,7 +6,7 @@ Each provider comes with its own set of resources and data sources.
 - Resources (e.g., AWS EC2, Azure VM, GCP Storage Bucket)
 - Data Sources (fetches information about existing resources)
 
-When we initialize Terraform with `terraform init` command, it downloads the required provider plugins from the Terraform Registry.
+When we initialize Terraform with `terraform init` command, it downloads the required provider plugins from the [Terraform Registry](https://registry.terraform.io/browse/providers).
 
 For example, Terraform AWS Provider allows you to create or manage AWS services like EC2, S3, Lambda, and more. 
 
