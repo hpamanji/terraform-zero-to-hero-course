@@ -12,8 +12,7 @@ For example, Terraform AWS Provider allows you to create or manage AWS services 
 
 When we initialize Terraform with `terraform init` command, the required provider plugins are downloaded from the [Terraform Registry](https://registry.terraform.io/browse/providers).
 
-### Setting up AWS Provider 
-
+## Provider Configuration Block
 Providers comes with its own configuration settings like region, or authentication details that must be set up before Terraform can manage resources on that cloud service/platform.
 
 To configure a provider, add a provider block in your Terraform configuration file. 
@@ -40,3 +39,49 @@ resource "aws_s3_bucket" "first_bucket" {
 ```cmd
 aws configure
 ```
+
+## Multiple Provider Configurations using `alias`
+
+Let's say, we want to create multiple EC2 instances in different AWS regions. We can achieve this with one configuration file. Terraform allows us to do this using the `alias` argument, which helps differentiate between provider instances.
+
+Instead of writing separate Terraform configurations for each region, we can define multiple provider blocks within a single configuration file, each referring to a different AWS region.
+
+The default provider is used for all resources unless explicitly specified.
+
+In the example below, we are Creating EC2 Instances in Two Regions. We have to explicitly specify the additional provider name(aws.west) otherwise the default provider will be refered.
+
+```cmd
+# Default AWS provider (us-east-1)
+provider "aws" {
+  region = "us-east-1"
+}
+
+# Additional AWS provider for the us-west-2 region
+provider "aws" {
+  alias  = "west"
+  region = "us-west-2"
+}
+
+# EC2 instance in us-east-1 (default provider)
+resource "aws_instance" "east_instance" {
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "East-Region-Instance"
+  }
+}
+
+# EC2 instance in us-west-2 (explicitly using aws.west provider)
+resource "aws_instance" "west_instance" {
+  provider      = aws.west
+  ami           = "ami-0c55b159cbfafe1f0"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "West-Region-Instance"
+  }
+}
+```
+
+Resources in the above example configuration, refers the provider from first block as `aws` and refers the addtional provider as `aws.west`
