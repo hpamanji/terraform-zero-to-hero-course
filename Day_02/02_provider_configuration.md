@@ -1,5 +1,4 @@
 # Provider Configuration Block
-Providers comes with its own configuration settings like region, or authentication details that must be set up before Terraform can manage resources on that cloud service/platform.
 
 To configure a provider, add a provider block in your Terraform configuration file. 
 
