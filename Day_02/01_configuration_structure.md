@@ -1,11 +1,11 @@
 # Terraform Configuration File Structure
----
+
 In a **Terraform project**, we will have multiple configuration files, each with a specific purpose.
 
 To become an expert in Terraform, it is very much required to learn these configuration files and how they can help us structure our project.
 
 **Here are some key configuration files of a terraform projecct and their purpose**
----
+
 | File | Purpose |
 |------|---------|
 | **`main.tf`** | Defines resources and infrastructure components. |
@@ -15,8 +15,9 @@ To become an expert in Terraform, it is very much required to learn these config
 | **`provider.tf`** | Declares cloud providers (AWS, Azure, GCP, etc.). |
 | **`backend.tf`** | Configures remote state storage (S3, Terraform Cloud). |
 
+
 **Here is an Example Terraform Project Structure:**
----
+
 ```cmd
 terraform-project/
 │── main.tf             # Main infrastructure definition
