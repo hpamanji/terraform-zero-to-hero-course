@@ -19,3 +19,13 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 }
 ```
+
+---
+
+## Understanding Resource Arguments
+
+**Mandatory arguments:** Essential for resource creation (e.g., ami, instance_type).
+
+**Optional arguments:** Can enhance resource behavior.
+
+**Computed attributes:** Values assigned after resource creation (e.g., public_ip).
