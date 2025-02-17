@@ -1,4 +1,4 @@
-# Multiple Provider Configurations using `alias`
+# Using Multiple AWS Provider Configurations with Aliases
 
 Let's say, we want to create multiple EC2 instances in different AWS regions. 
 
