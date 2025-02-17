@@ -2,6 +2,8 @@
 
 To configure a provider, add a provider block in your Terraform configuration file. 
 
+Terraform allows us to define providers in main.tf, but it can also be defined into a dedicated provider.tf file.
+
 In the example below, we are addding `aws` provider in our terraform configuration file (main.tf):
 
 ```cmd
