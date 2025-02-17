@@ -68,10 +68,6 @@ provider "aws" {
 resource "aws_instance" "east_instance" {
   ami           = "ami-0c55b159cbfafe1f0"
   instance_type = "t2.micro"
-
-  tags = {
-    Name = "East-Region-Instance"
-  }
 }
 
 # EC2 instance in us-west-2 (explicitly using aws.west provider)
@@ -79,10 +75,6 @@ resource "aws_instance" "west_instance" {
   provider      = aws.west
   ami           = "ami-0c55b159cbfafe1f0"
   instance_type = "t2.micro"
-
-  tags = {
-    Name = "West-Region-Instance"
-  }
 }
 ```
 
