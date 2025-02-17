@@ -15,7 +15,7 @@ aws --version
 
 If you see the version number, you're good to go!
 
-### Create an IAM User1
+### Create an IAM User
 
 Now, let’s create a secure user for Terraform to interact with AWS. 
 
