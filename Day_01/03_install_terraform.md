@@ -13,7 +13,7 @@ Terraform is a single binary executable, making installation straightforward. He
 ### 1.1 Windows Installation
 
 1. Download the latest Windows Terraform binary from the official website:  
-   [Terraform Downloads](https://developer.hashicorp.com/terraform/downloads)
+   [Terraform Downloads](https://developer.hashicorp.com/terraform/install)
 2. Extract the downloaded ZIP file to a directory (e.g., `C:\terraform`).
 3. Add this directory to the System PATH:  
    - Search for **"Environment Variables"** in Windows.  
@@ -32,3 +32,8 @@ Terraform is a single binary executable, making installation straightforward. He
 ```sh
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
+```
+
+### 1.3 Linux Installation 
+
+Follow the steps from the link - [Terraform Install](https://developer.hashicorp.com/terraform/install)
