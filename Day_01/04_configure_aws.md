@@ -5,7 +5,7 @@
 ---
 ### Install AWS CLI
 
-👉 Head over to the AWS CLI download page and follow the instructions to install AWS CLI
+👉 Head over to the [AWS CLI download page](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and follow the instructions to install AWS CLI
 
 👉 Follow the installation steps, and once it's done, check if it's working by running:
 
