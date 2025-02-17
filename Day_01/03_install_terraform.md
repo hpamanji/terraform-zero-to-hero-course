@@ -38,6 +38,8 @@ brew install hashicorp/tap/terraform
 
 Follow the steps from the link - [Terraform Install](https://developer.hashicorp.com/terraform/install)
 
+---
+
 ## Verify installation:
 
 To ensure Terraform is installed correctly, check the version:
