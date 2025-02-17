@@ -13,4 +13,4 @@ Each provider comes with its own set of resources and data sources.
 
 For example, Terraform AWS Provider allows you to create or manage AWS services like EC2, S3, Lambda, and more. 
 
-When we initialize Terraform with `terraform init` command, the required provider plugins are downloaded from the [Terraform Registry](https://registry.terraform.io/browse/providers).
+`Note: When we initialize Terraform with `terraform init` command, the required provider plugins are downloaded from the [Terraform Registry](https://registry.terraform.io/browse/providers).`
