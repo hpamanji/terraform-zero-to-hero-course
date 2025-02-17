@@ -14,7 +14,7 @@ When we initialize Terraform with `terraform init` command, the required provide
 
 ### Setting up AWS Provider 
 
-Providers comes with its own configuration settings like region, project ID, or authentication details that must be set up before Terraform can manage resources on that cloud service/platform.
+Providers comes with its own configuration settings like region, or authentication details that must be set up before Terraform can manage resources on that cloud service/platform.
 
 To configure a provider, add a provider block in your Terraform configuration file. 
 
