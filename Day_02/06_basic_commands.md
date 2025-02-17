@@ -1,6 +1,6 @@
 # Managing Resources with Terraform
 
-To manage terraform resources, here are some basic terraform commands that are helpful.
+Here are some basic terraform commands that are helpful in managing terraform resources.
 
 ## Basic Terraform Commands
 
