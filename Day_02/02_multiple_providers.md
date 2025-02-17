@@ -2,7 +2,10 @@
 
 Let's say, we want to create multiple EC2 instances in different AWS regions. 
 
-Terraform lets us manage multiple AWS regions within a single configuration file instead of creating separate configurations for each region. We can achieve this by defining multiple provider blocks, each specifying a different AWS region. To differentiate between these providers, we use the alias argument.
+Terraform lets us manage multiple AWS regions within a single configuration file instead of creating separate configurations for each region. We can achieve this by defining multiple provider blocks, each specifying a different AWS region. 
+
+To differentiate between these providers, we use the `alias` argument.
+
 In the example below, we are Creating EC2 Instances in Two Regions. We have to explicitly specify the additional provider name(aws.west) otherwise the default provider will be refered.
 
 ```cmd
