@@ -1,6 +1,6 @@
 # Terraform Providers
 
-A provider in Terraform is a plugin that enables Terraform to interact with specific cloud services or APIs. Provider configurations belong in the root module of a Terraform configuration. Child modules receive their provider configurations from the root module
+A provider in Terraform is a plugin that enables Terraform to interact with specific cloud services or APIs.
 
 - Provider converts your Terraform configuration into API calls that the cloud provider understands.
 - Defines which cloud platform Terraform will interact with.
