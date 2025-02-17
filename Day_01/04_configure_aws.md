@@ -2,7 +2,6 @@
 
 *Before Terraform can start spinning up resources in AWS, it needs access to your AWS account. That means setting up AWS credentials and making sure everything is properly configured. Let’s break it down step by step.*
 
----
 ## Install AWS CLI
 
 👉 Head over to the [AWS CLI download page](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and follow the instructions to install AWS CLI
