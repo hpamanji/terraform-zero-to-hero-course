@@ -17,7 +17,7 @@ You can build infrastructure in reusable, modular chunks, which makes it super e
 
 Terraform simplifies, automates, and streamlines infrastructure management like no other tool. Once you dive in, you’ll wonder how you ever managed without it!
 
-#Terraform Key Features
+# Terraform Key Features
 
 Terraform has some standout features that make it a go-to tool for managing infrastructure. Here’s what makes it so powerful and versatile:
 
