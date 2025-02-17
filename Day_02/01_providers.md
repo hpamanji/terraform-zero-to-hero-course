@@ -1,6 +1,6 @@
 # Terraform Providers
 
-A provider in Terraform is a plugin that enables Terraform to manage specific cloud services or APIs. Provider converts your Terraform configuration into API calls that the cloud provider understands.
+A provider in Terraform is a plugin that enables Terraform to interact with specific cloud services or APIs. Provider converts your Terraform configuration into API calls that the cloud provider understands.
 
 Each provider comes with its own set of resources and data sources.
 
@@ -12,7 +12,12 @@ For example:
 - The GCP provider interacts with Compute Engine, Cloud Storage, and IAM of Google Cloud Platform.
 - The Kubernetes provider helps manage Pods, Deployments, and Services in a kubernetes cluster.
 
-To use AWS with Terraform, define the AWS provider as below:
+
+For example, Terraform AWS Provider allows you to manage AWS services like EC2, S3, Lambda, and more. 
+
+### Setting up AWS Provider 
+
+In your main.tf file, add:
 
 ```cmd
 provider "aws" {
@@ -20,27 +25,7 @@ provider "aws" {
 }
 ```
 
-To use Azure, define the Azure provider as below:
-
+To allow Terraform to communicate with AWS, configure credentials using AWS CLI:
 ```cmd
-provider "azurerm" {
-  features {}
-}
-```
-
-For Google Cloud, use the GCP provider:
-
-```cmd
-provider "google" {
-  project = "my-gcp-project"
-  region  = "us-central1"
-}
-```
-
-For Kubernetes, use the Kubernetes provider:
-
-```cmd
-provider "kubernetes" {
-  config_path = "~/.kube/config"
-}
+aws configure
 ```
