@@ -78,4 +78,3 @@ resource "aws_instance" "west_instance" {
 }
 ```
 
-Resources in the above example configuration, refers the provider from first block as `aws` and refers the addtional provider as `aws.west`
