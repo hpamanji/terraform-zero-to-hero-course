@@ -4,7 +4,7 @@
 
 Infrastructure as Code (IaC) is like treating your infrastructure setup the same way you treat your application code - organized, trackable, and easy to update. 
 
-Instead of manually clicking around to set up servers, networks, or databases, we will define everything in code, and run it to provision or manage the infrastructure.
+Instead of manually setting up servers, networks, or databases, we will define everything in code, and run it to provision or manage the infrastructure.
 
 We will describe what we need (e.g., "three virtual machines, one database, and a load balancer"), and the code makes it happen. These files are stored in version control systems (like Git), so you can track every change, roll back if needed. This helps to work collaboratively with your team.
 
