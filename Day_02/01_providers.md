@@ -1,8 +1,10 @@
 # Terraform Providers
 
 A provider in Terraform is a plugin that enables Terraform to manage specific cloud services or APIs. Provider converts your Terraform configuration into API calls that the cloud provider understands.
+
 Each provider comes with its own set of resources and data sources.
-When you initialize Terraform (terraform init), it downloads the required provider plugins from the Terraform Registry 
+
+When we initialize Terraform with `terraform init`, it downloads the required provider plugins from the Terraform Registry 
 
 For example:
 - The AWS provider manages EC2 instances, S3 buckets, and Lambda functions of AWS.
