@@ -50,4 +50,4 @@ terraform -v
 
 This confirms Terraform is installed and ready to use.
 
-Tip: Always check for the latest Terraform version before installation by visiting the official HashiCorp website.
+Tip: `Always check for the latest Terraform version before installation by visiting the official HashiCorp website.`
