@@ -37,3 +37,15 @@ brew install hashicorp/tap/terraform
 ### 1.3 Linux Installation 
 
 Follow the steps from the link - [Terraform Install](https://developer.hashicorp.com/terraform/install)
+
+## Verify installation:
+
+To ensure Terraform is installed correctly, check the version:
+
+```cmd
+terraform -v
+```
+
+This confirms Terraform is installed and ready to use.
+
+Tip: Always check for the latest Terraform version before installation by visiting the official HashiCorp website.
