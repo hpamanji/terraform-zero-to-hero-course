@@ -4,7 +4,7 @@
 
 ---
 ### Install AWS CLI
-------
+
 👉 Head over to the [AWS CLI download page](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) and follow the instructions to install AWS CLI
 
 👉 Follow the installation steps, and once it's done, check if it's working by running:
@@ -16,7 +16,7 @@ aws --version
 If you see the version number, you're good to go!
 
 ### Create an IAM User1
----
+
 Now, let’s create a secure user for Terraform to interact with AWS. 
 
 Instead of using your root account, we’ll create an IAM (Identity and Access Management) user with limited permissions.
@@ -32,7 +32,7 @@ Instead of using your root account, we’ll create an IAM (Identity and Access M
 - Create User & Save Credentials: AWS will generate an Access Key ID and Secret Access Key—save these somewhere safe (like a password manager). You’ll need them in the next step!
 
 ### Configure AWS CLI Credentials
----
+
 To set up credentials, use the AWS CLI command 'aws configure'.
 
 ```cmd
