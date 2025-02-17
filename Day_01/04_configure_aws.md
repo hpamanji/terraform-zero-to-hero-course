@@ -41,10 +41,10 @@ aws configure
 
 You’ll be prompted to enter:
 
--- AWS Access Key ID
--- AWS Secret Access Key
--- Default region name (e.g., us-east-1)
--- Default output format (leave as None)
+1. AWS Access Key ID
+2. AWS Secret Access Key
+3. Default region name (e.g., us-east-1)
+4. Default output format (leave as None)
 
 ```cmd
 AWS Access Key ID [****************7WPF]:
