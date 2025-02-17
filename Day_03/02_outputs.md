@@ -10,6 +10,7 @@ Example: Retrieve EC2 Instance Public IP (outputs.tf)
 
 ```cmd
 output "instance_public_ip" {
+  description = "An example output variable"
   value = aws_instance.my_vm.public_ip
 }
 ```
