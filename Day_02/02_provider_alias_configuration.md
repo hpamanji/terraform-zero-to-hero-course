@@ -1,4 +1,8 @@
-# Same Provider but Multiple Configurations with Aliases
+# Multiple Configurations of same Provider - usage of Aliases
+
+We can have more than one provider block (with same provider name) in our configuration file, and use alias to refer them differently in our resource blocks.
+
+**Use Case:**
 
 Let's say, we have a requirement to create multiple EC2 instances in different AWS regions. 
 
