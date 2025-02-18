@@ -20,10 +20,10 @@ resource "aws_instance" "my_vm" {
 }
 ```
 
-- ✔ Resource block defines what Terraform creates, updates, or deletes.
-- ✔ Uses resource types (e.g., aws_instance, azurerm_virtual_machine).
-- ✔ Each resource has arguments (e.g., ami, instance_type).
-- ✔ Uses a unique resource name (my_vm) to track state.
+- Resource block defines what Terraform creates, updates, or deletes.
+- Uses resource types (e.g., aws_instance, azurerm_virtual_machine).
+- Each resource has arguments (e.g., ami, instance_type).
+- Uses a unique resource name (my_vm) to track state.
 
 ---
 
