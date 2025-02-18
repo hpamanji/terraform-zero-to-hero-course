@@ -1,8 +1,6 @@
 # Variables in Terraform
 
-Variables in terraform helps us in making configurations dynamic
-
-Instead of hardcoding values, use variables to make configurations reusable.
+Terraform variables help make configurations dynamic and reusable, so we don't have to hardcode values.
 
 - Variables allow flexibility and customization.
 - Use `var.<variable_name>` to reference them.
@@ -15,6 +13,7 @@ variable "instance_type" {
   default = "t2.micro"
 }
 ```
+This defines a variable with a default value as  t2.micro.
 
 ## Step 2: Use Variables (main.tf)
 
@@ -24,9 +23,11 @@ resource "aws_instance" "my_vm" {
   instance_type = var.instance_type
 }
 ```
+Instead of hardcoding "t2.micro", we use var.instance_type.
 
 ## Step 3: Provide Values (terraform.tfvars)
-
+We can override the default value by defining a different value in terraform.tfvars.
 ```cmd
 instance_type = "t3.medium"
 ```
+Now, when Terraform runs, it will use t3.medium instead of t2.micro.
