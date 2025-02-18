@@ -6,7 +6,7 @@ Terraform variables help make configurations dynamic and reusable, so we don't h
 - Use `var.<variable_name>` to reference them.
 - Store default values in `variables.tf` or override in `terraform.tfvars`.
 
-## Step 1: Declare Variables (variables.tf)
+### Step 1: Declare Variables (variables.tf)
 
 ```cmd
 variable "instance_type" {
@@ -15,7 +15,7 @@ variable "instance_type" {
 ```
 This defines a variable with a default value as  t2.micro.
 
-## Step 2: Use Variables (main.tf)
+### Step 2: Use Variables (main.tf)
 
 ```cmd
 resource "aws_instance" "my_vm" {
@@ -25,7 +25,7 @@ resource "aws_instance" "my_vm" {
 ```
 Instead of hardcoding "t2.micro", we use var.instance_type.
 
-## Step 3: Provide Values (terraform.tfvars)
+### Step 3: Provide Values (terraform.tfvars)
 We can override the default value by defining a different value in terraform.tfvars.
 ```cmd
 instance_type = "t3.medium"
