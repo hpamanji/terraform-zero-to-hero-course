@@ -14,7 +14,7 @@ To differentiate between these providers, we use the `alias` argument.
 
 *Example configuration:*
 ---
-In the example below, we are Creating EC2 Instances in Two Regions. We have to explicitly specify the additional provider name(aws.west) otherwise the default provider will be refered.
+In the example below, we are Creating EC2 Instances in Two Regions. We have to explicitly specify the additional provider name(aws.west) otherwise the default provider will be reffered.
 
 ```cmd
 # Default AWS provider (us-east-1)
