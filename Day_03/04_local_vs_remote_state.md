@@ -1,13 +1,7 @@
-
----
-
-### **2. Local vs Remote State (`2-local-vs-remote-state.md`)**
-
-```markdown
 # Local vs Remote State
 
 ## Local State
-- **Default behavior:** State is stored locally in a `terraform.tfstate` file.
+- **Default behavior:** Terraform state is stored locally in a `terraform.tfstate` file.
 - **Pros:**
   - Simple to use.
   - No additional setup required.
@@ -16,7 +10,7 @@
   - Risk of losing the state file.
 
 ## Remote State
-- State is stored in a remote backend (e.g., S3, Terraform Cloud).
+- **Default behavior:** State is stored in a remote backend (e.g., S3, Terraform Cloud).
 - **Pros:**
   - Enables team collaboration.
   - Provides state locking and versioning.
