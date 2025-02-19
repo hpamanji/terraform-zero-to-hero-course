@@ -2,7 +2,13 @@
 
 What is a Terraform Resource?
 
-A resource in Terraform represents an infrastructure object (e.g., EC2 instance, S3 bucket, VPC, etc.). Resources are defined using the resource block.
+A resource in Terraform represents an infrastructure object (e.g., EC2 instance, S3 bucket, VPC, etc.). 
+
+Resource block defines what Terraform creates, updates, or deletes.
+
+- Uses resource types (e.g., aws_instance, azurerm_virtual_machine).
+- Each resource has arguments (e.g., ami, instance_type).
+- Uses a unique resource name (my_vm) to track state.
 
 Resource Block Syntax:
 
@@ -19,8 +25,3 @@ resource "aws_instance" "my_vm" {
   instance_type = "t2.micro"
 }
 ```
-
-- Resource block defines what Terraform creates, updates, or deletes.
-- Uses resource types (e.g., aws_instance, azurerm_virtual_machine).
-- Each resource has arguments (e.g., ami, instance_type).
-- Uses a unique resource name (my_vm) to track state.
