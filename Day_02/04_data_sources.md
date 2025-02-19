@@ -24,9 +24,9 @@ data "<provider>_<type>" "<name>" {
 }
 ```
 
-- <provider>: The provider name (e.g., aws, azurerm, google).
-- <type>: The type of data source (e.g., ami, vpc, subnet).
-- <name>: A unique name for the data source within your configuration.
+- **provider:** The provider name (e.g., aws, azurerm, google).
+- **type:** The type of data source (e.g., ami, vpc, subnet).
+- **name:** A unique name for the data source within your configuration.
 
 ---
 ## Example
