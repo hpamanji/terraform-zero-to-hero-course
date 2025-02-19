@@ -1,7 +1,7 @@
 # Workspaces
 
 ## What are Workspaces?
-Workspaces allow you to manage multiple environments (e.g., dev, staging, prod) within the same configuration.
+Workspaces allows us to manage multiple environments (e.g., dev, staging, prod) within the same configuration.
 
 ## Creating and Switching Workspaces
 1. List workspaces:
