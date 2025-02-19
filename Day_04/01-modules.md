@@ -2,7 +2,7 @@
 
 ## What are Modules?
 
-In simple terms, module is a directory or package with its own set of Terraform configuration files. They allow you to encapsulate and reuse infrastructure code.
+In simple terms, module is a directory or package with its own set of Terraform configuration files. Modules allow us to encapsulate and reuse infrastructure code.
 
 ## Creating a Module
 1. Create a directory for your module (e.g., `modules/vpc`).
