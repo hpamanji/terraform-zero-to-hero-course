@@ -1,8 +1,10 @@
 # Count
 
-We can use Use count to create multiple instances of a resource with single configuration block:
+Let's say we want to create 3 aws instances using terraform, do we need 3 resource blocks for 3 aws_instance ? 
 
-For example, to create 3 aws ec2 instances we can achieve this with below:
+**NO,** we can use use count to create multiple instances of a resource with single configuration block:
+
+Here is the sample resource block to create 3 aws ec2 instances using count:
 
 ```hcl
 resource "aws_instance" "web" {
