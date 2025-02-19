@@ -1,6 +1,8 @@
 # Variables in Terraform
 
-Terraform variables help make configurations dynamic and reusable, so we don't have to hardcode values.
+Terraform confgirations can accept values through input variables.
+
+variables help make configurations dynamic and reusable, so we don't have to hardcode values.
 
 - Variables allow flexibility and customization.
 - To reference a variable in terraform configuration file, we use `var.<variable_name>`.
