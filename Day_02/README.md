@@ -2,7 +2,7 @@
 **we introduced Terraform, its benefits, installation, and basic CLI commands.**
 
 ### Now, on Day 2:
-**we dive into writing our first Terraform configuration to provision infrastructure.**
+**we write our first Terraform configuration to provision infrastructure.**
 
 By the end of this session, learners should be able to:
 - ✅ Understand the structure of a Terraform configuration file (.tf).
