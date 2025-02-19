@@ -14,7 +14,7 @@ resource "aws_instance" "web" {
 
 We can also add conditional expressions to count for conditional resource creation.
 
-Here is an example, where we create 3 instances in prod but only 1 in other environments
+In the below example, we create 3 instances in prod but only 1 in other environments using conditional expression with count.
 
 ```hcl
 resource "aws_instance" "web" {
