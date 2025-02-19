@@ -13,6 +13,8 @@ Let's say we have resources already deployed manually or via some other tools. T
 
 2. Use terraform import to map the resource:
 
+When we run `terraform import` command, Terraform will fetch the current state of the resource from the provider (e.g., AWS) and update the Terraform state file (terraform.tfstate) with the resource's attributes.
+
 Here is the syntax:
 
 ```cmd
@@ -24,8 +26,6 @@ Here is an example of importing existing aws instance
 ```cmd
 terraform import aws_instance.web i-1234567890abcdef0
 ```
-
-When we run `terraform import` command, Terraform will fetch the current state of the resource from the provider (e.g., AWS) and update the Terraform state file (terraform.tfstate) with the resource's attributes.
 
 3. Verify the import:
 After importing, update the configuration to match the imported resource's attributes:
