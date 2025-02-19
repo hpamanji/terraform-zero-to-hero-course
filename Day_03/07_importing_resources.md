@@ -37,5 +37,6 @@ resource "aws_instance" "web" {
 }
 ```
 
-Run terraform plan to ensure that the configuration matches the imported resource. If everything is correct, Terraform should show no changes.
+Run `terraform plan` to ensure that the configuration matches the imported resource. 
+If everything is correct, Terraform should show no changes.
 
