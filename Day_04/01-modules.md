@@ -25,11 +25,13 @@ variable "cidr_block" {
 output "vpc_id" {
   value = aws_vpc.main.id
 }
+```
 
 ## Using a Module
 To use the VPC Module, call the module in our root configuration as below:
 
 ```hcl
+# main.tf
 module "vpc" {
   source = "./modules/vpc"
   cidr_block = "10.0.0.0/16"
