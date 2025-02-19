@@ -17,7 +17,7 @@ resource "aws_s3_bucket" "first_bucket" {
 }
 ```
 
-**Key Points:**
+**Breakdown:**
 
 - The name in the block (`aws` in this example) refers to the provider.
 - The arguments inside the block (like `region`) define settings specific to the provider.
