@@ -1,6 +1,6 @@
 # Count
 
-Let's say we want to create 3 aws instances using terraform, do we need 3 resource blocks for 3 aws_instance ? 
+Let's say we want to create 3 aws instances using terraform, do we need 3 resource blocks for 3 aws_instances ? 
 
 **NO,** we can use use count to create multiple instances of a resource with single configuration block:
 
