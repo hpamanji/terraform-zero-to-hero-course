@@ -1,8 +1,8 @@
 # Understanding Terraform Workflow
 
-The Terraform workflow is a set of steps you follow to create, update, and manage your infrastructure using Terraform. 
+The Terraform workflow is a set of steps you follow to **create**, **update**, and **manage** your infrastructure using Terraform. 
 
-It consists of four main commands: init, plan, apply, and destroy.
+It consists of four main commands: **init**, **plan**, **apply**, and **destroy**.
 
 Using terraform workflow commands, we can avoid mistakes by showing exactly what changes will be made before applying them.
 
