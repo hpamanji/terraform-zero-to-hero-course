@@ -24,7 +24,7 @@ resource "aws_s3_bucket" "my_bucket" {
 }
 ```
 
-Now our first configuration file is ready..!
+Your first Terraform configuration file is ready..!
 
 **Run Terraform Commands:** Use `terraform init` to set up, `terraform plan` to preview, and `terraform apply` to create the resource.
 
