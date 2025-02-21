@@ -2,7 +2,7 @@
 
 A Terraform configuration is a set of files written in HashiCorp Configuration Language (HCL) that define the infrastructure you want to create or manage. 
 
-Your first configuration is the foundation of your infrastructure as code journey with Terraform. This is where we define resources like servers, databases, or storage.
+Your first configuration is the foundation of your infrastructure as code journey with Terraform. This is where you define resources like servers, databases, or storage.
 
 ## How does it work?
 
