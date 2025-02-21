@@ -6,6 +6,7 @@ Your first configuration is the foundation of your infrastructure as code journe
 
 ## How does it work?
 
+Create a file and name it as `main.tf` (Doesn't neccessarliy to be main, you can give your own names like - first.tf )
 **Define a Provider:** Specify the cloud or service provider (e.g., AWS, Azure, Google Cloud).
 
 For example, below configuration is how you define aws provider with us-east-1 region.
