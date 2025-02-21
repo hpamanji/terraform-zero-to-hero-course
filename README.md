@@ -1,6 +1,6 @@
 # Terraform Zero to Mastery : The compelte beginner to expert guide
 
-Hold on..! This is not just another Terraform zero to Hero course..!
+Hold on..! This is not just another Terraform Zero to Hero course..!
 
 This guide is curated and written out of my real time experience in developing and managing cloud infrastructures using Terraform. 
 
