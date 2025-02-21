@@ -1,4 +1,4 @@
-# terraform-zero-to-mastery
+# Terraform Zero to Mastery
 
 ## Welcome to Terraform Zero to Mastery! 
 
