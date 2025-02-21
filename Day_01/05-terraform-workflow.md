@@ -13,7 +13,7 @@ It consists of four main commands: **init**, **plan**, **apply**, and **destroy*
 **terraform destroy:** Removes all resources managed by Terraform.
 
 
-## Explanation:
+### Use case:
 
 - If you’re using AWS, **terraform init** command downloads the AWS provider plugin.
 
