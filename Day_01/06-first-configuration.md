@@ -7,9 +7,10 @@ Your first configuration is the foundation of your infrastructure as code journe
 ## How does it work?
 
 Create a file and name it as `main.tf` (can use your own names like - first.tf )
-**Define a Provider:** Specify the cloud or service provider (e.g., AWS, Azure, Google Cloud).
 
-For example, below configuration is how you define aws provider with us-east-1 region.
+**Define a Provider block:** Specify the cloud or service provider you want to work with(e.g., AWS, Azure, Google Cloud).
+
+For example, the below configuration block is how you define aws provider with us-east-1 region.
 
 ```hcl
 provider "aws" {
@@ -17,7 +18,9 @@ provider "aws" {
 }
 ```
 
-**Define a Resource:** This is the block where you declare the infrastructure component you want to create.
+**Define a Resource:** This is the block where you declare the infrastructure component you want to create. 
+
+We are creating an S3 bucket with the configuration below.
 
 ```hcl
 resource "aws_s3_bucket" "my_bucket" {
@@ -27,7 +30,7 @@ resource "aws_s3_bucket" "my_bucket" {
 
 Your first Terraform configuration file is ready..!
 
-**Run Terraform Commands:** Use `terraform init` to set up, `terraform plan` to preview, and `terraform apply` to create the resource.
+**Run Terraform Commands:** Use `terraform init` to set up, `terraform plan` to preview, and `terraform apply` to create the S3 Bucket aws resource.
 
 After running apply, Terraform creates an S3 bucket in your AWS account.
 
