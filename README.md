@@ -1,4 +1,4 @@
-# Terraform Zero to Mastery : The compelte begineer to expert guide
+# Terraform Zero to Mastery : The compelte beginner to expert guide
 
 ## Welcome to Terraform Zero to Mastery! 
 
