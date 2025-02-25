@@ -1,5 +1,5 @@
-### 01_dynamic_blocks.md
-#### Dynamic Blocks in Terraform
+## Dynamic Blocks in Terraform
+
 Dynamic blocks in Terraform let you programmatically generate nested blocks within a resource or module. 
 
 They are particularly useful when you need to create multiple similar blocks without having to write repetitive code.
@@ -59,3 +59,5 @@ ingress_rules = [
   }
 ]
 ```
+
+With this setup, Terraform automatically creates separate ingress blocks for each object in the ingress_rules list.
