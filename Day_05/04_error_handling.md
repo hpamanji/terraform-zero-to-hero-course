@@ -65,18 +65,18 @@ Remember to unset `TF_LOG` when you’re done to reduce noise.
 
 ---
 
-## Check Variable Types and Defaults
+### Check Variable Types and Defaults
 - Make sure that any default values match the data type declared for your variables.  
 - Use [custom variable validation](https://developer.hashicorp.com/terraform/language/values/variables#custom-validation-rules) to catch invalid inputs at an early stage.
 
 ---
 
-## Terraform Graph
+### Terraform Graph
+
+This can help you visualize resource dependencies.
+
 ```bash
 terraform graph | dot -Tpng > graph.png
 ```
 
-This can help you visualize resource dependencies.
-
 Especially helpful to see where a problem might be originating in complex configurations.
-

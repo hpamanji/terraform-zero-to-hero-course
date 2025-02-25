@@ -39,6 +39,8 @@ You can find a full list in the [Terraform documentation on built-in functions](
 
 ### Example 1: String and List Manipulation
 
+In this example, upper(var.environment) converts dev to DEV. And slice(var.subnets, 0, 2) takes the items from index 0 up to (but not including) index 2, resulting in the first two subnets.
+
 ```hcl
 variable "environment" {
   type    = string
@@ -60,10 +62,9 @@ locals {
 
 ```
 
-In this example, upper(var.environment) converts dev to DEV. And slice(var.subnets, 0, 2) takes the items from index 0 up to (but not including) index 2, resulting in the first two subnets.
+---
 
-
-Example 2: Merging Maps
+### Example 2: Merging Maps
 
 In this example, merge() combines two maps (default_tags and extra_tags) into a single map.
 
