@@ -2,6 +2,8 @@
 
 Automated testing ensures your Terraform configurations are **valid**, **secure**, and **performant** before deploying to production.
 
+---
+
 ### 1. Static Analysis
 
 #### 1.1 Terraform Fmt
@@ -153,10 +155,10 @@ jobs:
       - name: Validate with Terraform
         run: terraform validate
         
-      - name: Lint with TFLint
+      - name: Lint with TFLint  # Linting with TFLint
         run: tflint --init && tflint
 
-      - name: Security Scan with Checkov
+      - name: Security Scan with Checkov    # Security Scanning
         run: checkov -d .
 
       - name: Terraform Plan
