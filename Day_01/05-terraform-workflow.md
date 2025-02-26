@@ -2,6 +2,8 @@
 
 The Terraform workflow is a set of steps you follow to **create**, **update**, and **manage** your infrastructure using Terraform.
 
+---
+
 It consists of four main commands: **init**, **plan**, **apply**, and **destroy**.
 
 1. **terraform init:** Initializes your working directory by downloading the necessary provider plugins and setting up the backend for storing the state file.
@@ -12,7 +14,9 @@ It consists of four main commands: **init**, **plan**, **apply**, and **destroy*
 
 4. **terraform destroy:** Removes all resources managed by Terraform.
 
-### Use case - Provision/Manage AWS S3 bucket :
+---
+
+## Exmaple - Provision/Manage AWS S3 bucket :
 
 - If you’re using AWS, **terraform init** command downloads the AWS provider plugin.
 
@@ -22,13 +26,8 @@ It consists of four main commands: **init**, **plan**, **apply**, and **destroy*
 
 - If you no longer need the S3 bucket, **terraform destroy** will delete it. 
 
+---
 
-**Here are some suggested best practices to apply:**
+**We will practice this workflow in our next exercise where we will deploy our first aws resource with terraform**
 
-- Always run plan before apply to avoid surprises.
-
-- Use version control (e.g., Git) to track changes to your Terraform configurations.
-
-- Regularly back up your state file to avoid losing track of your infrastructure.
-
-This workflow makes managing infrastructure safe, predictable, and efficient!
+---
