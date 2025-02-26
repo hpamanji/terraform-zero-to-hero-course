@@ -58,6 +58,24 @@ Your first Terraform configuration file is ready..!
 
 ---
 
+**We can see the resource created in the AWS Console**
+
+![Alt text](../.pictures/First_Configuration_05.png?raw=true "Intro")
+
+---
+
+**`terraform destroy` to delete the S3 Bucket we just created**
+
+![Alt text](../.pictures/First_Configuration_06.png?raw=true "Intro")
+
+---
+
+**After confirmation, Terraform removes the S3 bucket in your AWS account.**
+
+![Alt text](../.pictures/First_Configuration_07.png?raw=true "Intro")
+
+---
+
 **Well Done..! This is your first step toward managing infrastructure as code with Terraform!**
 
 ---
