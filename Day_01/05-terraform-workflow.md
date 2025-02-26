@@ -2,6 +2,8 @@
 
 The Terraform workflow is a set of steps you follow to **create**, **update**, and **manage** your infrastructure using Terraform.
 
+---
+
 It consists of four main commands: **init**, **plan**, **apply**, and **destroy**.
 
 1. **terraform init:** Initializes your working directory by downloading the necessary provider plugins and setting up the backend for storing the state file.
