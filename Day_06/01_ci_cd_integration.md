@@ -1,7 +1,8 @@
-# 01_ci_cd_integration.md: Integrating Terraform with CI/CD Pipelines
+# Integrating Terraform with CI/CD Pipelines - GitHub Actions
 
-## Why CI/CD for Terraform?
-Implementing CI/CD (Continuous Integration/Continuous Deployment) for Terraform ensures that infrastructure changes are applied **consistently**, **quickly**, and **reliably**. By automating tests and deployment steps, teams can:
+Implementing CI/CD (Continuous Integration/Continuous Deployment) for Terraform ensures that infrastructure changes are applied **consistently**, **quickly**, and **reliably**. 
+
+By automating tests and deployment steps, teams can:
 
 - **Catch errors early** with automated checks.  
 - **Enforce best practices** through version control and peer reviews.  
@@ -9,9 +10,9 @@ Implementing CI/CD (Continuous Integration/Continuous Deployment) for Terraform 
 
 ---
 
-## Step-by-Step: Creating a GitHub Actions Workflow for Terraform
+## Creating a GitHub Actions Workflow for Terraform
 
-Below is a practical guide to help you set up a CI/CD pipeline for Terraform using **GitHub Actions**.
+This guide will help you set up a CI/CD pipeline for Terraform using **GitHub Actions**.
 
 ### 1. Prepare Your Repository
 
@@ -75,7 +76,7 @@ jobs:
         run: terraform apply -auto-approve
 ```
 
-# Additional Notes and Best Practices
+#### Additional Notes and Best Practices
 
 > **Note**  
 > Update `AWS_DEFAULT_REGION` according to your preferred region.  
@@ -83,32 +84,32 @@ jobs:
 
 ---
 
-## 4. Separate Environments (Optional but Recommended)
+### 4. Separate Environments (Optional but Recommended)
 
 To avoid accidentally deploying to production, you can create separate workflows or jobs for **development**, **staging**, and **production**. There are a few ways to do this:
 
-### 4.1 Use Terraform Workspaces
+#### 4.1 Use Terraform Workspaces
 
 1. **Create a new workspace**:
    ```bash
    terraform workspace new dev
    terraform workspace new prod
 
-# 4.2 Use Different Folders
+#### 4.2 Use Different Folders
 
 Create separate folders like `environments/dev` and `environments/prod`, each containing its own Terraform configuration.  
 Update your GitHub Actions workflow to **run Terraform commands in the relevant folder**.
 
 ---
 
-## 4.3 Use GitHub Environments
+#### 4.3 Use GitHub Environments
 
 GitHub allows you to define environments (e.g., production) that can require **manual approvals**, **environment-specific secrets**, or **restricted access**.  
 Configure these under **Settings > Environments** in your repository.
 
 ---
 
-## 5. Add Manual Approval (for Production)
+### 5. Add Manual Approval (for Production)
 
 For production deployments, it’s often wise to add a **manual approval step**. With GitHub Actions, you can:
 
