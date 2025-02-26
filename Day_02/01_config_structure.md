@@ -4,7 +4,7 @@ In a **Terraform project**, we will have multiple configuration files, each with
 
 To become an expert in Terraform, it is very much required to learn these configuration files and how they can help us structure our project.
 
-**Here are some key configuration files of a terraform projecct and their purpose**
+**Here are some key configuration files of a terraform project and their purpose**
 
 | File | Purpose |
 |------|---------|
