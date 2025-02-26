@@ -24,10 +24,15 @@ Instead of using your root account, we’ll create an IAM (Identity and Access M
 
 - Go to IAM → Users → Add User 
 
-- Choose a username & enable Programmatic Access (so Terraform can use an API key).
+- Choose a username.
 
-- Assign Permissions: For basic EC2 management, attach the AmazonEC2FullAccess policy. If you need access to other AWS services, assign relevant permissions. 
-
+- Assign Permissions:
+  For our first configuration, we will create an S3 bucket.
+  Let's attach `AmazonS3FullAccess` access policy to our new user.
+  Choose `attach policies directly`and search for `AmazonS3FullAccess`. Select the check box against the access policy and click on Next button.
+  If you need access to other AWS services, assign relevant permissions.
+  Click `Create User` finalize.
+  
 - Create User & Save Credentials: AWS will generate an Access Key ID and Secret Access Key—save these somewhere safe (like a password manager). You’ll need them in the next step!
 
 ## Configure AWS CLI Credentials
