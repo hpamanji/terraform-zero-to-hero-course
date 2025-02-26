@@ -26,19 +26,19 @@ Instead of using your root account, we’ll create an IAM (Identity and Access M
 
 - Choose a username.
 
-![Alt text](.pictures/AWS_IAM_User_creation_01.png?raw=true "Intro")
+![Alt text](../.pictures/AWS_IAM_User_creation_01.png?raw=true "Intro")
 
 - Assign Permissions:
   For our first configuration, we will create an S3 bucket.
   Let's attach `AmazonS3FullAccess` access policy to our new user.
   Choose `attach policies directly`and search for `AmazonS3FullAccess`. Select the check box against the access policy and click on Next button.
  
-  ![Alt text](.pictures/AWS_IAM_User_creation_02.png?raw=true "Intro")
+  ![Alt text](../.pictures/AWS_IAM_User_creation_02.png?raw=true "Intro")
 
   If you need access to other AWS services, assign relevant permissions.
   Click `Create User` finalize.
   
-  ![Alt text](.pictures/AWS_IAM_User_creation_03s.png?raw=true "Intro")
+  ![Alt text](../.pictures/AWS_IAM_User_creation_03s.png?raw=true "Intro")
 
 - Create User & Save Credentials: AWS will generate an Access Key ID and Secret Access Key—save these somewhere safe (like a password manager). You’ll need them in the next step!
 
