@@ -58,7 +58,7 @@ Terraform validate helps to Quickly catch typos, missing variables, or incorrect
 
 `TFLint` is a popular linting tool that checks your Terraform code for potential issues, such as deprecated arguments or missing attributes in providers. It catches provider-specific issues that terraform validate might miss.
 
-**Installation:** (TFLint GitHub Repo)[https://github.com/terraform-linters/tflint]
+**Installation:** [TFLint GitHub Repo](https://github.com/terraform-linters/tflint)
 
 **Usage:**
 
@@ -70,7 +70,7 @@ tflint
 
 `checkov` scans Terraform code for security and compliance misconfigurations (e.g., checking if an S3 bucket is publicly accessible).
 
-Installation: (Checkov GitHub Repo)[https://github.com/bridgecrewio/checkov]
+Installation: [Checkov GitHub Repo](https://github.com/bridgecrewio/checkov)
 
 Usage:
 ```bash
