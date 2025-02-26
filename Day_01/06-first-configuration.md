@@ -32,20 +32,32 @@ Your first Terraform configuration file is ready..!
 
 **Run Terraform Commands:** 
 
-Use `terraform init` to set up 
+---
+
+**Use `terraform init` to set up**
 
 ![Alt text](../.pictures/First_Configuration_01.png?raw=true "Intro")
 
-`terraform plan` to preview
+---
+
+**`terraform plan` to preview**
 
 ![Alt text](../.pictures/First_Configuration_02.png?raw=true "Intro")
 
-`terraform apply` to create the S3 Bucket aws resource.
+---
+
+**`terraform apply` to create the S3 Bucket aws resource.**
 
 ![Alt text](../.pictures/First_Configuration_03.png?raw=true "Intro")
 
-After running apply, Terraform creates an S3 bucket in your AWS account.
+---
+
+**After running apply, Terraform creates an S3 bucket in your AWS account.**
 
 ![Alt text](../.pictures/First_Configuration_04.png?raw=true "Intro")
 
+---
+
 **Well Done..! This is your first step toward managing infrastructure as code with Terraform!**
+
+---
