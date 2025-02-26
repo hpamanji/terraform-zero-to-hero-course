@@ -12,7 +12,9 @@ It consists of four main commands: **init**, **plan**, **apply**, and **destroy*
 
 4. **terraform destroy:** Removes all resources managed by Terraform.
 
-### Use case - Provision/Manage AWS S3 bucket :
+---
+
+## Exmaple - Provision/Manage AWS S3 bucket :
 
 - If you’re using AWS, **terraform init** command downloads the AWS provider plugin.
 
@@ -22,5 +24,8 @@ It consists of four main commands: **init**, **plan**, **apply**, and **destroy*
 
 - If you no longer need the S3 bucket, **terraform destroy** will delete it. 
 
+---
 
 **We will practice this workflow in our next exercise where we will deploy our first aws resource with terraform**
+
+---
