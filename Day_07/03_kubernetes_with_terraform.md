@@ -45,9 +45,9 @@ module "eks" {
 
 **Autonomy:**
 
-`cluster_name` & `cluster_version`: Define a meaningful name for your cluster and specify the Kubernetes version (e.g., 1.21 or higher).
-`vpc_id` & `subnets`: Use your existing AWS VPC and subnet IDs.
-`worker_groups`: Configure node groups (e.g., instance types, scaling limits). Here, an Auto Scaling group is set with a max size of 3 nodes.
+- `cluster_name` & `cluster_version`: Define a meaningful name for your cluster and specify the Kubernetes version (e.g., 1.21 or higher).
+- `vpc_id` & `subnets`: Use your existing AWS VPC and subnet IDs.
+- `worker_groups`: Configure node groups (e.g., instance types, scaling limits). Here, an Auto Scaling group is set with a max size of 3 nodes.
 
 ---
 
@@ -113,10 +113,11 @@ resource "kubernetes_service" "example" {
 ```
 
 **Autonomy:**
-*kubernetes_deployment:*
+
+1. *kubernetes_deployment:*
 - `replicas = 3` spins up 3 pods of NGINX for load balancing and redundancy.
 - `selector` and `template` ensure pods are labeled consistently, making them discoverable by Services.
-*kubernetes_service:*
+2. *kubernetes_service:*
 - `type = "LoadBalancer"` creates an external load balancer to expose port 80 to the internet (or your chosen network).
 - `selector` matches pods labeled `app = "example"`.
 
