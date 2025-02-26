@@ -38,7 +38,7 @@ Instead of using your root account, we’ll create an IAM (Identity and Access M
   If you need access to other AWS services, assign relevant permissions.
   Click `Create User` finalize.
   
-  ![Alt text](../.pictures/AWS_IAM_User_creation_03s.png?raw=true "Intro")
+  ![Alt text](../.pictures/AWS_IAM_User_creation_03.png?raw=true "Intro")
 
 - Create User & Save Credentials: AWS will generate an Access Key ID and Secret Access Key—save these somewhere safe (like a password manager). You’ll need them in the next step!
 
