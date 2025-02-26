@@ -57,23 +57,23 @@ Click on the Username you created. You should see a summary of the user’s deta
 
 ![Alt text](../.pictures/AWS_IAM_User_creation_04.png?raw=true "Intro")
 
-Click on Create access key:
+**Click on Create access key:**
 
 ![Alt text](../.pictures/AWS_IAM_User_creation_05.png?raw=true "Intro")
 
-Select the usecase as `Command Line Interface(CLI)`
+**Select the usecase as `Command Line Interface(CLI)`**
 
 ![Alt text](../.pictures/AWS_IAM_User_creation_06.png?raw=true "Intro")
 
-Select the usecase as `Command Line Interface(CLI)`
+**Select the usecase as `Command Line Interface(CLI)`**
 
 ![Alt text](../.pictures/AWS_IAM_User_creation_06.png?raw=true "Intro")
 
-Provide a description(Optional) and click on `Create access key`
+**Provide a description(Optional) and click on `Create access key`**
 
 ![Alt text](../.pictures/AWS_IAM_User_creation_07.png?raw=true "Intro")
 
-Download or copy the Access Key ID and Secret Access Key.
+**Download or copy the Access Key ID and Secret Access Key.**
 
 ![Alt text](../.pictures/AWS_IAM_User_creation_08.png?raw=true "Intro")
 
