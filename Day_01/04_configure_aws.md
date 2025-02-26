@@ -114,6 +114,6 @@ Default output format [json]:
 
 ---
 
-**All setup is done..! Happy Terraforming..!!!**
+**AWS setup is done..! Happy Terraforming..!!!**
 
 ---
