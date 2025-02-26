@@ -1,30 +1,32 @@
 
-### 4. Separate Environments (Optional but Recommended)
+# Integrating Terraform with CI/CD Pipelines - GitHub Actions (Part-2)
+
+## 4. Separate Environments (Optional but Recommended)
 
 To avoid accidentally deploying to production, you can create separate workflows or jobs for **development**, **staging**, and **production**. There are a few ways to do this:
 
-#### 4.1 Use Terraform Workspaces
+### 4.1 Use Terraform Workspaces
 
 1. **Create a new workspace**:
    ```bash
    terraform workspace new dev
    terraform workspace new prod
 
-#### 4.2 Use Different Folders
+### 4.2 Use Different Folders
 
 Create separate folders like `environments/dev` and `environments/prod`, each containing its own Terraform configuration.  
 Update your GitHub Actions workflow to **run Terraform commands in the relevant folder**.
 
 ---
 
-#### 4.3 Use GitHub Environments
+### 4.3 Use GitHub Environments
 
 GitHub allows you to define environments (e.g., production) that can require **manual approvals**, **environment-specific secrets**, or **restricted access**.  
 Configure these under **Settings > Environments** in your repository.
 
 ---
 
-### 5. Add Manual Approval (for Production)
+## 5. Add Manual Approval (for Production)
 
 For production deployments, it’s often wise to add a **manual approval step**. With GitHub Actions, you can:
 

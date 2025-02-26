@@ -1,4 +1,4 @@
-# Integrating Terraform with CI/CD Pipelines - GitHub Actions
+# Integrating Terraform with CI/CD Pipelines - GitHub Actions (Part-1)
 
 Implementing CI/CD (Continuous Integration/Continuous Deployment) for Terraform ensures that infrastructure changes are applied **consistently**, **quickly**, and **reliably**. 
 
