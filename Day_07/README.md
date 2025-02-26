@@ -12,12 +12,6 @@ By the end of this day, you’ll be able to:
 
 Use Terraform to manage resources across multiple cloud providers. Define separate provider blocks for each cloud.
 
-- **Build a complete infrastructure from scratch**
-
-Build a complete infrastructure (e.g., VPC, EC2, RDS, Load Balancer) using Terraform.
-
-Use modular design and dependency management for scalability.
-
 - **Manage Kubernetes clusters using Terraform**
 
 Automate Kubernetes cluster creation and resource management.
