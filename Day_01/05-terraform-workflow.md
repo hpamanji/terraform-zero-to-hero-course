@@ -23,12 +23,4 @@ It consists of four main commands: **init**, **plan**, **apply**, and **destroy*
 - If you no longer need the S3 bucket, **terraform destroy** will delete it. 
 
 
-**Here are some suggested best practices to apply:**
-
-- Always run plan before apply to avoid surprises.
-
-- Use version control (e.g., Git) to track changes to your Terraform configurations.
-
-- Regularly back up your state file to avoid losing track of your infrastructure.
-
-This workflow makes managing infrastructure safe, predictable, and efficient!
+**We will practice this workflow in our next exercise where we will deploy our first aws resource with terraform**
