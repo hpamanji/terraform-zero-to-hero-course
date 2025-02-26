@@ -2,11 +2,9 @@
 
 Automated testing ensures your Terraform configurations are **valid**, **secure**, and **performant** before deploying to production.
 
----
+### 1. Static Analysis
 
-## 1. Static Analysis
-
-### 1.1 Terraform Fmt
+#### 1.1 Terraform Fmt
 
 Consistent code style improves readability and reduces code review friction.
 
@@ -18,7 +16,7 @@ Consistent code style improves readability and reduces code review friction.
   terraform fmt
   ```
 
-### 1.2 terraform validate
+#### 1.2 terraform validate
 
 Terraform validate helps to Quickly catch typos, missing variables, or incorrect argument references.
 
@@ -28,7 +26,7 @@ Terraform validate helps to Quickly catch typos, missing variables, or incorrect
     terraform validate
     ```
 
-### 1.3. Linting with TFLint
+#### 1.3. Linting with TFLint
 
 `TFLint` is a popular linting tool that checks your Terraform code for potential issues, such as deprecated arguments or missing attributes in providers. It catches provider-specific issues that terraform validate might miss.
 
@@ -40,7 +38,7 @@ Terraform validate helps to Quickly catch typos, missing variables, or incorrect
 tflint
 ```
 
-### 1.4. Security Scanning (Checkov or Similar Tools)
+#### 1.4. Security Scanning (Checkov or Similar Tools)
 
 `checkov` scans Terraform code for security and compliance misconfigurations, policy violations (e.g., checking if an S3 bucket is publicly accessible).
 
@@ -54,28 +52,18 @@ checkov -d .
 
 ---
 
-## 2. Integration Testing with Terratest
+### 2. Integration Testing with Terratest
 
 For thorough testing, you can deploy infrastructure in a temporary environment and run real-world verifications:
 
 Terratest is written in Go: Allows you to write tests that provision Terraform resources, then verify their functionality (e.g., checking if an EC2 instance is reachable).
 
-Key Commands:
-go
-Copy
-Edit
+**Key Commands:**
+```go
 // Example Go snippet
 terraform.InitAndApply(t, opts)
 terraform.Destroy(t, opts)
-Run Tests:
-bash
-Copy
-Edit
-go test -v
-Benefit: Ensures your infrastructure behaves as expected under realistic conditions.
-Cleanup
-
-Terratest will destroy the resources after tests complete, preventing leftover infrastructure and unexpected costs.
+```
 
 **Example:**
 
