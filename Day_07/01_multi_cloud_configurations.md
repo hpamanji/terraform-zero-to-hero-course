@@ -8,7 +8,12 @@ Terraform makes it easy to manage resources across multiple clouds using a singl
 ### Example: Multi-Cloud Configuration
 Here’s how you can manage resources in both **AWS** and **Google Cloud Platform** using Terraform:
 
+In the example configuration below, we are using Terraform to manage resources across multiple clouds in a single configuration.
+
+To achieve this, we define separate provider blocks for each cloud provider.
+
 ```hcl
+
 # AWS Provider
 provider "aws" {
   region = "us-east-1"
@@ -43,6 +48,4 @@ resource "google_compute_instance" "example" {
   }
 }
 
-In this example, we are using Terraform to manage resources across multiple clouds in a single configuration.
-
-To achieve this, we define separate provider blocks for each cloud provider.
+```
