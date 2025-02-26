@@ -49,9 +49,8 @@ Instead of using your root account, we’ll create an IAM (Identity and Access M
 ---
 
 ## 3. Generate or Retrieve the User’s Access Keys
-Go to the IAM Console: AWS Console > IAM.
 
-Select “Users” in the left navigation pane.
+Go to the IAM Console: AWS Console > IAM. Select “Users” in the left navigation pane.
 
 **Click on the Username** you created. You should see a summary of the user’s details.
 
