@@ -59,10 +59,13 @@ For thorough testing, you can deploy infrastructure in a temporary environment a
 Terratest is written in Go: Allows you to write tests that provision Terraform resources, then verify their functionality (e.g., checking if an EC2 instance is reachable).
 
 **Key Commands:**
+
 ```go
+
 // Example Go snippet
-terraform.InitAndApply(t, opts)
-terraform.Destroy(t, opts)
+terraform.InitAndApply(t, opts)   // Deploy the infrastructure
+terraform.Destroy(t, opts)  // Clean up resources at the end of the test
+
 ```
 
 **Example:**
