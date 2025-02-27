@@ -1,4 +1,4 @@
-# Terraform Zero to Mastery : The compelte beginner to expert guide
+# Terraform Zero to Hero Course : The compelte beginner to expert guide
 
 Hold on..! This is not just another Terraform Zero to Hero course..!
 
