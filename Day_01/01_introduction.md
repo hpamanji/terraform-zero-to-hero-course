@@ -1,5 +1,7 @@
 ## Terraform for Everyone: A Beginner-Friendly Intro to IaC
 
+![Alt text](.pictures/main_pic.png?raw=true "Intro")
+
 ### What is Infrastructure as Code (IaC)?
 
 Infrastructure as Code (IaC) is like treating your infrastructure setup the same way you treat your application code - organized, trackable, and easy to update. 
