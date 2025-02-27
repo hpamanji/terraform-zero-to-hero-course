@@ -1,6 +1,6 @@
 ## Terraform for Everyone: A Beginner-Friendly Intro to IaC
 
-![Alt text](.pictures/main_pic.png?raw=true "Intro")
+![Alt text](../.pictures/main_pic.png?raw=true "Intro")
 
 ### What is Infrastructure as Code (IaC)?
 
