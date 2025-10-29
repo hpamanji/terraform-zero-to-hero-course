@@ -1,3 +1,4 @@
+# Ryan Morrian
 # Terraform Zero to Hero Course : The compelte beginner to expert guide
 
 Learn terraform with this Terraform Zero to Hero course.
@@ -8,4 +9,4 @@ This project is not just designed to take you from absolute Beginner to Terrafor
 
 ![Alt text](.pictures/main_pic.png?raw=true "Intro")
 
-Ryan Morrian
+
