@@ -1,4 +1,4 @@
-#A compelte beginner to expert Terraform guide by Hemachandar Pamanji
+# A compelte beginner to expert Terraform guide by Hemachandar Pamanji
 
 Learn terraform with this Terraform Zero to Hero course.
 
